@@ -1,7 +1,9 @@
-FROM docker.io/arm32v7/ubuntu:rolling
+# Use the ARM32 official Ubuntu resolute image
+FROM docker.io/arm32v7/ubuntu:resolute
 
 ENV DEBIAN_FRONTEND=noninteractive
 
+# Install system packages persistently
 RUN apt-get update && apt-get install -y \
     bash \
     curl \
