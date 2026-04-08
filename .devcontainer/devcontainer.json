@@ -1,5 +1,5 @@
 {
-  "name": "ARM32 Ubuntu Resolute",
+  "name": "ARM32 Ubuntu Jammy",
   "build": {
     "dockerfile": "Dockerfile"
   },
