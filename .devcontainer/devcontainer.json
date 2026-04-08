@@ -1,0 +1,7 @@
+{
+  "name": "ARM32 Rolling",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "runArgs": ["--platform=linux/arm/v7"]
+}
