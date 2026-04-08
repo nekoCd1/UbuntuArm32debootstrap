@@ -3,5 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "runArgs": ["--platform=linux/arm/v7"]
+  "runArgs": ["--platform=linux/arm/v7"],
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
 }
