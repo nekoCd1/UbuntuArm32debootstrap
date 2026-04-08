@@ -4,5 +4,6 @@
     "dockerfile": "Dockerfile"
   },
   "runArgs": ["--platform=linux/arm/v7"],
-  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}"
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "postCreateCommand": "bash .devcontainer/setup.sh"
 }
